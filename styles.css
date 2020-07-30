@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  color: #40514E;
+}
+
+h1 {
+  color: white;
+  margin-top: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  width: 600px;
+  top: 200px;
+  left: 700px;
+  font-size: 115px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px royalblue, 0 0 20px #fff, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px yellow, 0 0 70px gold;
+  }
+  to {
+    text-shadow: 0 0 20px lightblue, 0 0 30px white, 0 0 40px white, 0 0 50px yellow, 0 0 60px gold, 0 0 70px white, 0 0 80px white;
+  }
+}
+.head2{
+  position: absolute;
+  top: 150px;
+  width: 500px;
+  left: 800px;
+  font-size: 50px;
+  color: black;
+}
+
+.rohan{
+  height: 300px;
+}
+
+.skill{
+  height: 300px;
+}
+
+.webd{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.prosolv{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+}
+
+.top {
+  background-color: #E4F9F5;
+  background-image: url("comp.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 520px;
+  width: 100%;
+}
+h3{
+  color: darkblue;
+  font-family: arial;
+}
+h2{
+  color: black;
+}
+
+strong{
+  color: black;
+}
+
+strong:hover{
+  color: royalblue;
+}
+
+h4{
+  color: darkblue;
+}
+
+.copyr{
+  color: white;
+  font-size: 0.75rem;
+  font-family: arial;
+  padding: 5px 0;
+}
+
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.contmess{
+  margin: 40px auto 60px;
+}
+
+.bottom-container{
+  background-color: #468ccf;
+  padding: 5px 0 5px;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+  margin-bottom: 20px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer{
+  color: white;
+}
